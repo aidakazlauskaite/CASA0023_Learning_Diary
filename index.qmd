@@ -1,9 +1,11 @@
 # Preface {.unnumbered}
 
-This is a Quarto book.
+Hi everyone!
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+My name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (at UCL Geography department once again!).
 
-```{r}
-1 + 1
+Outside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first 58km ultramarathon in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!
+
+```{r echo=FALSE, out.width = "50%", fig.align='center', cache=FALSE}
+knitr::include_graphics('intro1.jpg')
 ```
