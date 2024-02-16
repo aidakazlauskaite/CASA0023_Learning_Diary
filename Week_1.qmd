@@ -4,6 +4,16 @@ title: "Week 1 - Introduction to Remote Sensing"
 
 ## Summary
 
+### What is remote sensing?
+
+According to NASA's definition, remote sensing is the acquiring of information from a distance. This week's learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications.
+
+### Sensors
+
+#### 1. Passive
+
+#### 2. Active
+
 ## Applications
 
 ## Reflections
