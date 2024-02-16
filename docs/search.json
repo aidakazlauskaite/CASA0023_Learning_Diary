@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023 Learning Diary",
+    "section": "",
+    "text": "About\nHi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (at UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first 58km ultramarathon in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "2  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "Week_1.html#summary",
+    "href": "Week_1.html#summary",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.1 Summary",
+    "text": "1.1 Summary\n\n1.1.1 What is remote sensing?\nAccording to NASA’s definition, remote sensing is the acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications.\n\n\n1.1.2 Sensors\n\n1.1.2.1 1. Passive\n\n\n1.1.2.2 2. Active"
+  },
+  {
+    "objectID": "Week_1.html#applications",
+    "href": "Week_1.html#applications",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.2 Applications",
+    "text": "1.2 Applications"
+  },
+  {
+    "objectID": "Week_1.html#reflections",
+    "href": "Week_1.html#reflections",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.3 Reflections",
+    "text": "1.3 Reflections"
+  },
+  {
+    "objectID": "Week_1.html#references",
+    "href": "Week_1.html#references",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "1.4 References",
+    "text": "1.4 References"
+  },
+  {
+    "objectID": "Week_1.html",
+    "href": "Week_1.html",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "",
+    "text": "2 Summary"
+  },
+  {
+    "objectID": "Week_1.html#what-is-remote-sensing",
+    "href": "Week_1.html#what-is-remote-sensing",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "2.1 What is remote sensing?",
+    "text": "2.1 What is remote sensing?\nAccording to NASA’s definition, remote sensing is the acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications."
+  },
+  {
+    "objectID": "Week_1.html#sensors",
+    "href": "Week_1.html#sensors",
+    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "section": "2.2 Sensors",
+    "text": "2.2 Sensors\n\n2.2.1 Passive\n\n\n2.2.2 Active"
+  }
+]
