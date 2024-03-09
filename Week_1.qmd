@@ -1,5 +1,6 @@
 ---
 title: "Introduction to Remote Sensing"
+bibliography: references.bib
 ---
 
 # What is remote sensing?
