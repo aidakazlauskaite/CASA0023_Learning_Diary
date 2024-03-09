@@ -1,79 +1,93 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "CASA0023 Learning Diary",
-    "section": "",
-    "text": "About\nHi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (at UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first 58km ultramarathon in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
-  },
-  {
-    "objectID": "intro.html",
-    "href": "intro.html",
-    "title": "1  Introduction",
-    "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "2  Summary",
-    "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
-  },
-  {
-    "objectID": "Week_1.html#summary",
-    "href": "Week_1.html#summary",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "1.1 Summary",
-    "text": "1.1 Summary\n\n1.1.1 What is remote sensing?\nAccording to NASA’s definition, remote sensing is the acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications.\n\n\n1.1.2 Sensors\n\n1.1.2.1 1. Passive\n\n\n1.1.2.2 2. Active"
-  },
-  {
-    "objectID": "Week_1.html#applications",
-    "href": "Week_1.html#applications",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "1.2 Applications",
-    "text": "1.2 Applications"
-  },
-  {
-    "objectID": "Week_1.html#reflections",
-    "href": "Week_1.html#reflections",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "1.3 Reflections",
-    "text": "1.3 Reflections"
-  },
-  {
-    "objectID": "Week_1.html#references",
-    "href": "Week_1.html#references",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "1.4 References",
-    "text": "1.4 References"
-  },
-  {
     "objectID": "Week_1.html",
     "href": "Week_1.html",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
+    "title": "2  Introduction to Remote Sensing",
     "section": "",
-    "text": "2 Summary"
+    "text": "3 Summary\nSatellite remote sensing is extensively used across numerous domains, including agriculture, land use mapping and monitoring, conservation and research, disaster management, climate monitoring, urban planning, weather forecasting, forest mapping, water management, mining, etc.\nA very interesting application of using remotely sensed data in aquatic wildlife conservation is DHI Group’s teams in Malaysia and Denmark that employ remote sensing techniques to map and monitor Mangrove, Coral, and Submerged Aquatic Vegetation (MCSAV) via their web-based interactive platform called MCSAV. Through this technology, DHI endeavors to offer access to earth observation-derived maps in Malaysia, bridging the information gap and enhancing the planning, management, and monitoring of coastal and marine ecosystems. This initiative includes the two marine parks in Sabah state, aiming to safeguard ecosystems and promote biodiversity restoration. Please refer to the video below for more information on the initiative:\nAnother fascinating area where remotely sensed data is offering solutions to a multitude of problems is urban planning. Challenges such as urban sprawl and growth monitoring, heat island effects and microclimate analysis, disaster preparedness and response facilitation (amongst many others), all become much more manageable with satellite data.\nUtilising Land Surface Temperature (LST) data based on Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station observations from 2018 to 2021, Yin et al. discovered “persistent negative correlations between daytime land surface temperature (LST) and median household income across the Los Angeles metropolitan area” (Yin et al. 2023). These findings are crucial given the projection of more frequent and intense heat waves in the future as it becomes imperative to implement fair mitigation strategies."
   },
   {
     "objectID": "Week_1.html#what-is-remote-sensing",
     "href": "Week_1.html#what-is-remote-sensing",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "2.1 What is remote sensing?",
-    "text": "2.1 What is remote sensing?\nAccording to NASA’s definition, remote sensing is the acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications."
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.1 What is remote sensing?",
+    "text": "3.1 What is remote sensing?\nRemote sensing is the process of acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications."
   },
   {
     "objectID": "Week_1.html#sensors",
     "href": "Week_1.html#sensors",
-    "title": "1  Week 1 - Introduction to Remote Sensing",
-    "section": "2.2 Sensors",
-    "text": "2.2 Sensors\n\n2.2.1 Passive\n\n\n2.2.2 Active"
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.2 Sensors",
+    "text": "3.2 Sensors\nIn terms of sensors used to acquire remote data, there are two types: passive and active.\n\n3.2.1 Passive\nPassive sensors pick up energy either emitted by an object or reflected from it; these types of sensors do not emit any energy themselves. The majority of passive systems utilised in remote sensing applications function within the visible, infrared, thermal infrared, and microwave segments of the electromagnetic spectrum. Examples include: human eye, camera, satellite sensor, etc.\n\n\n\n(“Passive Sensors” 2024).\n\n\n\n\n3.2.2 Active\nActive sensors emit a burst of energy and analyse alterations in the returning signal. The majority of active sensors operate within the microwave segment of the electromagnetic spectrum, enabling them to penetrate the atmosphere in various conditions, e.g. clouds. Examples include: LiDAR, X-Ray, etc.\n\n\n\n(“Active Sensors” 2024)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "CASA0023 Learning Diary",
+    "section": "",
+    "text": "Hi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (in UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first ultramarathon (58km) in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle a full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
+  },
+  {
+    "objectID": "Week_3.html",
+    "href": "Week_3.html",
+    "title": "3  Corrections",
+    "section": "",
+    "text": "4 Summary\n\n\n5 Applications\n\n\n6 Reflections"
+  },
+  {
+    "objectID": "Week_2.html",
+    "href": "Week_2.html",
+    "title": "2  Xarigan",
+    "section": "",
+    "text": "3 Xarigan presentation: LiDAR sensor\nLearning diary entry for week 2 will consist of a Xarigan presentation on the LiDAR sensor. Please find the summary, applications and reflections sections in the presentation below."
+  },
+  {
+    "objectID": "Week_4.html",
+    "href": "Week_4.html",
+    "title": "4  Policy",
+    "section": "",
+    "text": "5 Manila: using remotely sensed data to deal with urban heat islands"
+  },
+  {
+    "objectID": "Week_4.html#summary",
+    "href": "Week_4.html#summary",
+    "title": "4  Policy",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary"
+  },
+  {
+    "objectID": "Week_4.html#applications",
+    "href": "Week_4.html#applications",
+    "title": "4  Policy",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications"
+  },
+  {
+    "objectID": "Week_4.html#reflections",
+    "href": "Week_4.html#reflections",
+    "title": "4  Policy",
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections"
+  },
+  {
+    "objectID": "Week_1.html#electromagnetic-waves",
+    "href": "Week_1.html#electromagnetic-waves",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.3 Electromagnetic waves",
+    "text": "3.3 Electromagnetic waves\nElectromagnetic radiation (EMR) comprises waves generated by the electromagnetic field, propagating through space while carrying both momentum and radiant energy of the electromagnetic nature.\nEMR goes through various alterations before prior hitting the sensor, e.g. the EMR from the sun might be scattered by particles in the atmosphere, it also might be absorbed by the Earth’s surface, etc.\nAn important term to understand is wavelength - it refers to the distance between corresponding points of two consecutive waves. Various radiation types vary in wavelength and occupy different segments of the electromagnetic spectrum. Sensors are capable of capturing these diverse wavelengths, thereby offering varying information types and operating within distinct limitations."
+  },
+  {
+    "objectID": "Week_1.html#scattering",
+    "href": "Week_1.html#scattering",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.4 Scattering",
+    "text": "3.4 Scattering\nScattering happens when particles or large gas molecules within the atmosphere interact with electromagnetic radiation, causing it to deviate from its initial trajectory.\nThere are three types of atmospheric scattering:\n\nRayleigh = particles are very small compared to the wavelength of the radiation.\nMie = particles are just about the same size.\nNonselective = particles are much larger.\n\n\n\n\n(Dharaiya 2022)."
+  },
+  {
+    "objectID": "Week_1.html#resolutions",
+    "href": "Week_1.html#resolutions",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.5 Resolutions",
+    "text": "3.5 Resolutions\nRemotely sensed data has four resolutions:\n\nSpatial = dimensions of individual pixels in a digital image and the corresponding area on Earth’s surface that each pixel represents.\nSpectral = sensor’s capacity to distinguish more precise wavelengths.\nTemporal = duration required for a satellite to complete one orbit and return to the same observation area.\nRadiometric = level of detail contained within each pixel, denoted by the number of bits used to represent the recorded energy."
   }
 ]

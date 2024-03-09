@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "CASA0023 Learning Diary",
     "section": "",
-    "text": "About\nHi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (at UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first 58km ultramarathon in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
+    "text": "Hi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (in UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first 58km ultramarathon in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle a full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
   },
   {
     "objectID": "intro.html",
@@ -54,5 +54,68 @@
     "title": "1  Week 1 - Introduction to Remote Sensing",
     "section": "1.4 References",
     "text": "1.4 References"
+  },
+  {
+    "objectID": "Week_1.html",
+    "href": "Week_1.html",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "",
+    "text": "3 Summary"
+  },
+  {
+    "objectID": "Week_1.html#what-is-remote-sensing",
+    "href": "Week_1.html#what-is-remote-sensing",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.1 What is remote sensing?",
+    "text": "3.1 What is remote sensing?\nAccording to NASA’s definition, remote sensing is the acquiring of information from a distance. This week’s learning diary entry will provide a basic overview of the many uses of remote sensing as well as some of its possible applications."
+  },
+  {
+    "objectID": "Week_1.html#sensors",
+    "href": "Week_1.html#sensors",
+    "title": "2  Introduction to Remote Sensing",
+    "section": "3.2 Sensors",
+    "text": "3.2 Sensors\n\n3.2.1 Passive\n\n\n3.2.2 Active"
+  },
+  {
+    "objectID": "Week_3.html",
+    "href": "Week_3.html",
+    "title": "3  Corrections",
+    "section": "",
+    "text": "4 Summary\n\n\n5 Applications\n\n\n6 Reflections"
+  },
+  {
+    "objectID": "Week_2.html",
+    "href": "Week_2.html",
+    "title": "2  Xarigan",
+    "section": "",
+    "text": "3 Xarigan presentation: LiDAR sensor\nLearning diary entry for week 2 will consist of a Xarigan presentation on the LiDAR sensor. Please find the summary, applications and reflections sections in the presentation below."
+  },
+  {
+    "objectID": "Week_4.html",
+    "href": "Week_4.html",
+    "title": "4  Policy",
+    "section": "",
+    "text": "5 Manila: using remotely sensed data to deal with urban heat islands"
+  },
+  {
+    "objectID": "Week_4.html#summary",
+    "href": "Week_4.html#summary",
+    "title": "4  Policy",
+    "section": "5.1 Summary",
+    "text": "5.1 Summary"
+  },
+  {
+    "objectID": "Week_4.html#applications",
+    "href": "Week_4.html#applications",
+    "title": "4  Policy",
+    "section": "5.2 Applications",
+    "text": "5.2 Applications"
+  },
+  {
+    "objectID": "Week_4.html#reflections",
+    "href": "Week_4.html#reflections",
+    "title": "4  Policy",
+    "section": "5.3 Reflections",
+    "text": "5.3 Reflections"
   }
 ]
