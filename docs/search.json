@@ -89,5 +89,12 @@
     "title": "2  Introduction to Remote Sensing",
     "section": "3.5 Resolutions",
     "text": "3.5 Resolutions\nRemotely sensed data has four resolutions:\n\nSpatial = dimensions of individual pixels in a digital image and the corresponding area on Earth’s surface that each pixel represents.\nSpectral = sensor’s capacity to distinguish more precise wavelengths.\nTemporal = duration required for a satellite to complete one orbit and return to the same observation area.\nRadiometric = level of detail contained within each pixel, denoted by the number of bits used to represent the recorded energy."
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "“Active Sensors.” 2024. https://www.earthdata.nasa.gov/learn/backgrounders/active-sensors.\n\n\nDharaiya, Aditya. 2022. “Remote Sensing: An Overview with\nFundamentals and Applications.” Prithivya 2 (1): 38–52.\n\n\n“Passive Sensors.” 2024. https://www.earthdata.nasa.gov/learn/backgrounders/passive-sensors#:~:text=Passive%20sensors%20detect%20energy%20emitted,portions%20of%20the%20electromagnetic%20spectrum.\n\n\nYin, Yi, Liyin He, Paul O. Wennberg, and Christian Frankenberg. 2023.\n“Unequal exposure to heatwaves in Los Angeles: Impact of uneven\ngreen spaces.” Science Advances 9 (17): eade8501. https://doi.org/10.1126/sciadv.ade8501."
   }
 ]
