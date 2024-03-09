@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: docs
 
 book:
   title: "CASA0023 Learning Diary"
@@ -8,6 +9,9 @@ book:
   chapters:
     - index.qmd
     - Week_1.qmd
+    - Week_2.qmd
+    - Week_3.qmd
+    - Week_4.qmd
     - references.qmd
 
 bibliography: references.bib
