@@ -7,6 +7,6 @@ title: "Xarigan"
 Learning diary entry for week 2 will consist of a Xarigan presentation on the LiDAR sensor. Please find the summary, applications and reflections sections in the presentation below.
 
 ```{r xaringan_embed, echo=FALSE}
-xaringanExtra::embed_xaringan(url = "https://aidakazlauskaite.github.io/xaringan/#1", ratio = "4:3")
+xaringanExtra::embed_xaringan(url = "https://aidakazlauskaite.github.io/xarigan/", ratio = "4:3")
 
 ```
