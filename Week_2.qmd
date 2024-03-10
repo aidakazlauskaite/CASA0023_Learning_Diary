@@ -2,7 +2,7 @@
 title: "Xarigan"
 ---
 
-# Xarigan presentation: LiDAR sensor
+## Xarigan presentation: LiDAR sensor
 
 Learning diary entry for week 2 will consist of a Xarigan presentation on the LiDAR sensor. Please find the summary, applications and reflections sections in the presentation below.
 

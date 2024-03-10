@@ -3,10 +3,10 @@ title: "Policy"
 bibliography: references.bib
 ---
 
-# Manila: using remotely sensed data to deal with urban heat islands
+## Manila: using remotely sensed data to deal with urban heat islands
 
-## Summary
+### Summary
 
-## Applications
+### Applications
 
-## Reflections
+### Reflections
