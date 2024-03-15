@@ -3,8 +3,8 @@ title: "Classification I"
 bibliography: references.bib
 ---
 
-#Summary
+## Summary
 
-#Applications
+## Applications
 
-#Reflections
+## Reflections

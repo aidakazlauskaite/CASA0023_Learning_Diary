@@ -3,8 +3,8 @@ title: "Google Earth Engine"
 bibliography: references.bib
 ---
 
-#Summary
+## Summary
 
-#Applications
+## Applications
 
-#Reflections
+## Reflections

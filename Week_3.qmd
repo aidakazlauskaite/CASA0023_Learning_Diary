@@ -36,7 +36,7 @@ Atmospheric correction is necessary when data concerns biophysical parameters as
     -   Requirements: an atmospheric model, local atmospheric visibility, image altitude.
 3.  **Empirical line correction**:
     -   Going in situ and using a field spectrometer.
-    
+
 ![A true color composite (bands 4-3-2) of Sentinel-2B image with top-of-atmosphere (TOA) reflectance (left) and surface reflectance after atmospheric correction (right) with Land Surface Reflectance Code (LaSRC) [@AtmosphericCorrection].](atmospheric-correction.png)
 
 ### Orthorectification/topographic correction
