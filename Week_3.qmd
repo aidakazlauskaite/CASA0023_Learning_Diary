@@ -5,6 +5,53 @@ bibliography: references.bib
 
 ## Summary
 
+Remotely sensed images sometimes may be flawed (due to the atmosphere, terrain, sensor, etc.) - there are various types of corrections that can be done and four of them - *geometric, atmospheric, orthorectification/topographic, and radiometric calibration* - will be discussed below.
+
+### Geometric correction
+
+1.  Identify Ground Control Points (GPS) to align identifiable points within the image with those in a reference dataset.
+
+2.  Derive geometric transformation coefficients by modeling the coordinates.
+
+3.  Next, we plot these points and aim to minimize the Root Mean Square Error (RMSE) (the model with the lowest RMSE will fit best), with Jensen defining a target RMSE value of 0.5.
+
+4.  Re-sampling the final raster is a must, methods are the following:
+
+    i)  Nearest Neighbour
+    ii) Linear
+    iii) Cubic
+    iv) Cubic spine
+
+### Atmospheric correction
+
+Atmospheric correction is necessary when data concerns biophysical parameters as well as when using spectral signatures over time and space.
+
+#### Atmospheric correction types
+
+1.  **Relative (to something)**:
+    -   *Dark object subtraction (DOS) or histogram adjustment*: scanning each band to identify the darkest value and then subtracting it from every pixel.
+    -   *Pseudo-invariant Features (PIFs)*: assuming brightness pixels linearly relates to a base image - regression per band - modifying the image according to the regression outcome and applying this principle to the rest of the pixels.
+2.  **Absolute**:
+    -   Converting digital brightness values into scaled surface reflectance - allows for comparison of these scaled surface reflectance values globally and is achieved through atmospheric radiative transfer models.
+    -   Requirements: an atmospheric model, local atmospheric visibility, image altitude.
+3.  **Empirical line correction**:
+    -   Going in situ and using a field spectrometer.
+    
+![A true color composite (bands 4-3-2) of Sentinel-2B image with top-of-atmosphere (TOA) reflectance (left) and surface reflectance after atmospheric correction (right) with Land Surface Reflectance Code (LaSRC) [@AtmosphericCorrection].](atmospheric-correction.png)
+
+### Orthorectification/topographic correction
+
+Orthorectification is the process of correcting image distortions caused by terrain variations, ensuring accurate geometric representation of Earth's surface in remote sensing imagery i.e., as if viewed from nadir. It requires sensor geometry and an elevation model.
+
+**Formulas to do this**:
+
+-   Cosine correction
+-   Minnaert correction
+-   Statistical empirical correction
+-   C correction
+
+![[@setyawanOrthorectificationNutshell].](orthorectification.png)
+
 ## Applications
 
 ## Reflections

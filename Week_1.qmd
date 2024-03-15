@@ -15,13 +15,13 @@ In terms of sensors used to acquire remote data, there are two types: passive an
 
 Passive sensors pick up energy either emitted by an object or reflected from it; these types of sensors do not emit any energy themselves. The majority of passive systems utilised in remote sensing applications function within the visible, infrared, thermal infrared, and microwave segments of the electromagnetic spectrum. Examples include: human eye, camera, satellite sensor, etc.
 
-![[@passive2024].](passive-sensor.png)
+![[@PassiveSensors2024].](passive-sensor.png)
 
 ### Active
 
 Active sensors emit a burst of energy and analyse alterations in the returning signal. The majority of active sensors operate within the microwave segment of the electromagnetic spectrum, enabling them to penetrate the atmosphere in various conditions, e.g. clouds. Examples include: LiDAR, X-Ray, etc.
 
-![[@actives2024].](active-sensor.png)
+![[@ActiveSensors2024].](active-sensor.png)
 
 ## Electromagnetic waves
 
@@ -43,7 +43,7 @@ There are *three* types of atmospheric scattering:
 
 3.  **Nonselective** = particles are much larger.
 
-![[@dharaiya2022].](scattering.png)
+![[@dharaiyaRemoteSensingOverview2022].](scattering.png)
 
 ## Resolutions
 
@@ -67,6 +67,6 @@ A very interesting application of using remotely sensed data in aquatic wildlife
 
 Another fascinating area where remotely sensed data is offering solutions to a multitude of problems is urban planning. Challenges such as urban sprawl and growth monitoring, heat island effects and microclimate analysis, disaster preparedness and response facilitation (amongst *many* others), all become much more manageable with satellite data.
 
-Utilising Land Surface Temperature (LST) data based on Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station observations from 2018 to 2021, Yin et al. discovered *"persistent negative correlations between daytime land surface temperature (LST) and median household income across the Los Angeles metropolitan area"* [@yin2023]. These findings are crucial given the projection of more frequent and intense heat waves in the future as it becomes imperative to implement fair mitigation strategies.
+Utilising Land Surface Temperature (LST) data based on Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station observations from 2018 to 2021, Yin et al. discovered *"persistent negative correlations between daytime land surface temperature (LST) and median household income across the Los Angeles metropolitan area"* \[yinUnequalExposureHeatwaves2023\]. These findings are crucial given the projection of more frequent and intense heat waves in the future as it becomes imperative to implement fair mitigation strategies.
 
 ## Reflections
