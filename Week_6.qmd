@@ -1,3 +1,10 @@
 ---
 title: "Classification I"
+bibliography: references.bib
 ---
+
+#Summary
+
+#Applications
+
+#Reflections
