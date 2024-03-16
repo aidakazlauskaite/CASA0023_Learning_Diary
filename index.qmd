@@ -6,6 +6,6 @@ My name is Aida - I was born and raised in Vilnius, Lithuania, before moving to 
 
 Outside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first ultramarathon (58km) in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle a full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!
 
-```{r echo=FALSE, out.width = "100%", fig.align='center', cache=FALSE}
+```{r echo=FALSE, out.width = "70%", fig.align='center', cache=FALSE}
 knitr::include_graphics('intro1.jpg')
 ```
