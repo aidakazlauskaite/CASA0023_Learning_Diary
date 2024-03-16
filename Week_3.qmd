@@ -22,11 +22,13 @@ Remotely sensed images sometimes may be flawed (due to the atmosphere, terrain, 
     iii) Cubic
     iv) Cubic spine
 
+![Schematic Depiction of Geometric Correction [@ImageProcessing].](geometric-correction.png)
+
 ### Atmospheric correction
 
 Atmospheric correction is necessary when data concerns biophysical parameters as well as when using spectral signatures over time and space.
 
-#### Atmospheric correction types
+#### **Atmospheric correction types**
 
 1.  **Relative (to something)**:
     -   *Dark object subtraction (DOS) or histogram adjustment*: scanning each band to identify the darkest value and then subtracting it from every pixel.
@@ -52,6 +54,26 @@ Orthorectification is the process of correcting image distortions caused by terr
 
 ![[@setyawanOrthorectificationNutshell].](orthorectification.png)
 
+### Radiometric calibration
+
+Sensors capture image brightness and distribute it as a Digital Number (DN), enabling efficient storage, albeit lacking units. Radiometric calibration is essentially the process if transforming DN to spectral radiance, i.e. the amount of light within a band from a sensor in the field of view (FOV). The process of radiometric calibration is crucial in remote sensing to ensure accurate and consistent measurement of electromagnetic radiation, enabling reliable interpretation and analysis of remote sensing data.
+
+### Disclaimer - or simply good news?
+
+Remote sensing products are now provided in a 'corrected' format, such as 'Analysis Ready Data' (ARD) i.e., there's no need to apply these corrections manually, however, it is necessary to know how remotely sensed data was created.
+
 ## Applications
+
+The two types of corrections I found most interesting personally were geometric and atmospheric, hence, the applications section will be dedicated to reviewing examples of research papers that have utilised them.
+
+### Geometric correction
+
+[@kimGeometricCorrectionGeostationary2018] published a study aimed to improve the accuracy of satellite data from ocean color sensors, like the Geostationary Ocean Color Imager (GOCI), by developing a new method for geometric correction. This was a critical gap in research to fill because traditional methods based on ground control points (GCPs) were ineffective in areas where shorelines were absent, presenting a challenge for accurately aligning satellite images. The researchers used a combination of shoreline matching and frequency matching techniques to correct the images. Their findings showed that this new method significantly improved the accuracy of the satellite data, demonstrating the importance of geometric correction in producing reliable and high-quality images for various applications, such as monitoring ocean health and environmental changes.
+
+![GOCI slot imaging sequence [@kimGeometricCorrectionGeostationary2018].](GOCI.png)
+
+### Atmospheric correction
+
+[@sriwongsitanonInfluenceAtmosphericCorrection2011] carried out a study to investigate the impact of atmospheric correction and sampling point density on the precision of remote sensing in assessing lake water clarity. Field experiments were conducted at Bung Boraphet, the largest freshwater lake in Thailand, to gather data on clarity parameters and suspended sediment concentration. By applying atmospheric correction to satellite images, the authors identified substantial effects on the estimated values of water clarity parameters, the accuracy of which is crucial for assessing water quality, monitoring ecosystem health, and informing management decisions to protect freshwater resources. 
 
 ## Reflections

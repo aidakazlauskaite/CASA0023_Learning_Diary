@@ -193,8 +193,14 @@ div.csl-indent {
   <li><a href="#geometric-correction" id="toc-geometric-correction" class="nav-link" data-scroll-target="#geometric-correction"><span class="header-section-number">3.1.1</span> Geometric correction</a></li>
   <li><a href="#atmospheric-correction" id="toc-atmospheric-correction" class="nav-link" data-scroll-target="#atmospheric-correction"><span class="header-section-number">3.1.2</span> Atmospheric correction</a></li>
   <li><a href="#orthorectificationtopographic-correction" id="toc-orthorectificationtopographic-correction" class="nav-link" data-scroll-target="#orthorectificationtopographic-correction"><span class="header-section-number">3.1.3</span> Orthorectification/topographic correction</a></li>
+  <li><a href="#radiometric-calibration" id="toc-radiometric-calibration" class="nav-link" data-scroll-target="#radiometric-calibration"><span class="header-section-number">3.1.4</span> Radiometric calibration</a></li>
+  <li><a href="#disclaimer---or-simply-good-news" id="toc-disclaimer---or-simply-good-news" class="nav-link" data-scroll-target="#disclaimer---or-simply-good-news"><span class="header-section-number">3.1.5</span> Disclaimer - or simply good news?</a></li>
   </ul></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">3.2</span> Applications</a>
+  <ul class="collapse">
+  <li><a href="#geometric-correction-1" id="toc-geometric-correction-1" class="nav-link" data-scroll-target="#geometric-correction-1"><span class="header-section-number">3.2.1</span> Geometric correction</a></li>
+  <li><a href="#atmospheric-correction-1" id="toc-atmospheric-correction-1" class="nav-link" data-scroll-target="#atmospheric-correction-1"><span class="header-section-number">3.2.2</span> Atmospheric correction</a></li>
+  </ul></li>
   <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">3.3</span> Reflections</a></li>
   </ul>
 </nav>
@@ -236,12 +242,18 @@ div.csl-indent {
 <li>Cubic spine</li>
 </ol></li>
 </ol>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="geometric-correction.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Schematic Depiction of Geometric Correction <span class="citation" data-cites="ImageProcessing">(<a href="references.html#ref-ImageProcessing" role="doc-biblioref"><span>“Image <span>Processing</span>”</span> n.d.</a>)</span>.</figcaption>
+</figure>
+</div>
 </section>
 <section id="atmospheric-correction" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="atmospheric-correction"><span class="header-section-number">3.1.2</span> Atmospheric correction</h3>
 <p>Atmospheric correction is necessary when data concerns biophysical parameters as well as when using spectral signatures over time and space.</p>
 <section id="atmospheric-correction-types" class="level4" data-number="3.1.2.1">
-<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="atmospheric-correction-types"><span class="header-section-number">3.1.2.1</span> Atmospheric correction types</h4>
+<h4 data-number="3.1.2.1" class="anchored" data-anchor-id="atmospheric-correction-types"><span class="header-section-number">3.1.2.1</span> <strong>Atmospheric correction types</strong></h4>
 <ol type="1">
 <li><strong>Relative (to something)</strong>:
 <ul>
@@ -283,9 +295,32 @@ div.csl-indent {
 </figure>
 </div>
 </section>
+<section id="radiometric-calibration" class="level3" data-number="3.1.4">
+<h3 data-number="3.1.4" class="anchored" data-anchor-id="radiometric-calibration"><span class="header-section-number">3.1.4</span> Radiometric calibration</h3>
+<p>Sensors capture image brightness and distribute it as a Digital Number (DN), enabling efficient storage, albeit lacking units. Radiometric calibration is essentially the process if transforming DN to spectral radiance, i.e.&nbsp;the amount of light within a band from a sensor in the field of view (FOV). The process of radiometric calibration is crucial in remote sensing to ensure accurate and consistent measurement of electromagnetic radiation, enabling reliable interpretation and analysis of remote sensing data.</p>
+</section>
+<section id="disclaimer---or-simply-good-news" class="level3" data-number="3.1.5">
+<h3 data-number="3.1.5" class="anchored" data-anchor-id="disclaimer---or-simply-good-news"><span class="header-section-number">3.1.5</span> Disclaimer - or simply good news?</h3>
+<p>Remote sensing products are now provided in a ‘corrected’ format, such as ‘Analysis Ready Data’ (ARD) i.e., there’s no need to apply these corrections manually, however, it is necessary to know how remotely sensed data was created.</p>
+</section>
 </section>
 <section id="applications" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">3.2</span> Applications</h2>
+<p>The two types of corrections I found most interesting personally were geometric and atmospheric, hence, the applications section will be dedicated to reviewing examples of research papers that have utilised them.</p>
+<section id="geometric-correction-1" class="level3" data-number="3.2.1">
+<h3 data-number="3.2.1" class="anchored" data-anchor-id="geometric-correction-1"><span class="header-section-number">3.2.1</span> Geometric correction</h3>
+<p><span class="citation" data-cites="kimGeometricCorrectionGeostationary2018">(<a href="references.html#ref-kimGeometricCorrectionGeostationary2018" role="doc-biblioref">Kim, Son, and Kim 2018</a>)</span> published a study aimed to improve the accuracy of satellite data from ocean color sensors, like the Geostationary Ocean Color Imager (GOCI), by developing a new method for geometric correction. This was a critical gap in research to fill because traditional methods based on ground control points (GCPs) were ineffective in areas where shorelines were absent, presenting a challenge for accurately aligning satellite images. The researchers used a combination of shoreline matching and frequency matching techniques to correct the images. Their findings showed that this new method significantly improved the accuracy of the satellite data, demonstrating the importance of geometric correction in producing reliable and high-quality images for various applications, such as monitoring ocean health and environmental changes.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GOCI.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">GOCI slot imaging sequence <span class="citation" data-cites="kimGeometricCorrectionGeostationary2018">(<a href="references.html#ref-kimGeometricCorrectionGeostationary2018" role="doc-biblioref">Kim, Son, and Kim 2018</a>)</span>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="atmospheric-correction-1" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="atmospheric-correction-1"><span class="header-section-number">3.2.2</span> Atmospheric correction</h3>
+<p><span class="citation" data-cites="sriwongsitanonInfluenceAtmosphericCorrection2011">(<a href="references.html#ref-sriwongsitanonInfluenceAtmosphericCorrection2011" role="doc-biblioref">Sriwongsitanon, Surakit, and Thianpopirug 2011</a>)</span> carried out a study to investigate the impact of atmospheric correction and sampling point density on the precision of remote sensing in assessing lake water clarity. Field experiments were conducted at Bung Boraphet, the largest freshwater lake in Thailand, to gather data on clarity parameters and suspended sediment concentration. By applying atmospheric correction to satellite images, the authors identified substantial effects on the estimated values of water clarity parameters, the accuracy of which is crucial for assessing water quality, monitoring ecosystem health, and informing management decisions to protect freshwater resources.</p>
+</section>
 </section>
 <section id="reflections" class="level2" data-number="3.3">
 <h2 data-number="3.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">3.3</span> Reflections</h2>
@@ -295,8 +330,17 @@ div.csl-indent {
 <div id="ref-AtmosphericCorrection" class="csl-entry" role="listitem">
 <span>“Atmospheric Correction.”</span> n.d. NASA. Accessed February 15, 2024. <a href="https://hls.gsfc.nasa.gov/algorithms/atmospheric-correction/">https://hls.gsfc.nasa.gov/algorithms/atmospheric-correction/</a>.
 </div>
+<div id="ref-ImageProcessing" class="csl-entry" role="listitem">
+<span>“Image <span>Processing</span>.”</span> n.d. Science Education through Earth Observation for High Schools (SEOS). Accessed February 15, 2024. <a href="https://seos-project.eu/remotesensing/remotesensing-c05-p01.html">https://seos-project.eu/remotesensing/remotesensing-c05-p01.html</a>.
+</div>
+<div id="ref-kimGeometricCorrectionGeostationary2018" class="csl-entry" role="listitem">
+Kim, Han-Gyeol, Jong-Hwan Son, and Taejung Kim. 2018. <span>“Geometric <span>Correction</span> for the <span>Geostationary Ocean Color Imager</span> from a <span>Combination</span> of <span>Shoreline Matching</span> and <span>Frequency Matching</span>.”</span> <em>Sensors</em> 18 (11): 3599. <a href="https://doi.org/10.3390/s18113599">https://doi.org/10.3390/s18113599</a>.
+</div>
 <div id="ref-setyawanOrthorectificationNutshell" class="csl-entry" role="listitem">
 Setyawan, Eric. n.d. <span>“Orthorectification in a <span>Nutshell</span>.”</span> Intermap. Accessed February 15, 2024. <a href="https://www.intermap.com/blog/orthorectification-in-a-nutshell">https://www.intermap.com/blog/orthorectification-in-a-nutshell</a>.
+</div>
+<div id="ref-sriwongsitanonInfluenceAtmosphericCorrection2011" class="csl-entry" role="listitem">
+Sriwongsitanon, Nutchanart, Kritsanat Surakit, and Sansarith Thianpopirug. 2011. <span>“Influence of Atmospheric Correction and Number of Sampling Points on the Accuracy of Water Clarity Assessment Using Remote Sensing Application.”</span> <em>Journal of Hydrology</em> 401 (3-4): 203–20. <a href="https://doi.org/10.1016/j.jhydrol.2011.02.023">https://doi.org/10.1016/j.jhydrol.2011.02.023</a>.
 </div>
 </div>
 </section>
