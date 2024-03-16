@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -197,14 +216,76 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2" data-number="5.1">
 <h2 data-number="5.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">5.1</span> Summary</h2>
+<p>This week’s lecture provided an introduction to Google Earth Engine (GEE) - content below will aim to summarise the most important things to note about this platform and discuss its many applications.</p>
+<p><strong>What is GEE?</strong> A <em>cloud-based platform</em> for analysing geospatial data and conducting <em>large-scale</em> remote sensing analysis using <em>Javascript</em> (code runs on both server (<em>backend</em>) and client (<em>frontend</em>) side).</p>
+<p><strong>Why should we use it?</strong> For one thing, it significantly decreases processing time and is openly available to anyone who wishes to use it. More specifically, though, the entire image collection does not need to be loaded repeatedly during looping.</p>
+<p><strong>Things to know when using GEE:</strong></p>
+<ul>
+<li>Raster = image</li>
+<li>Collection = several images or polygons</li>
+<li>Image scale = pixel resolution (set by the output not input)</li>
+<li>GEE transforms all data into the Mercator projection (EPSG: 3857)</li>
+<li>Object = vector, raster, feature, string, number</li>
+<li>Geometry = point/line/polygon (no attributes)</li>
+<li>Feature = geometry (with attributes)</li>
+<li>Feature collection = several features</li>
+</ul>
+<p><strong>What can we do in GEE?</strong></p>
+<ul>
+<li>Geometry operations (e.g.&nbsp;spatial operations) e.g., joins, filtering, zonal statistics, etc.</li>
+<li>Methods e.g., machine learning, classification, deep learning, etc.</li>
+<li>Applications/outputs e.g., online charts, scalable applications for geospatial data with GEE, etc.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GEE-interface.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The Earth Engine Code Editor <span class="citation" data-cites="GetStartedEarth2023">(<a href="references.html#ref-GetStartedEarth2023" role="doc-biblioref"><span>“Get <span>Started</span> with <span>Earth Engine</span>”</span> 2023</a>)</span>.</figcaption>
+</figure>
+</div>
 </section>
 <section id="applications" class="level2" data-number="5.2">
 <h2 data-number="5.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">5.2</span> Applications</h2>
+<p>As far as I’m aware, <span class="citation" data-cites="amaniGoogleEarthEngine2020">(<a href="references.html#ref-amaniGoogleEarthEngine2020" role="doc-biblioref">Amani et al. 2020</a>)</span> have summarised all possible applications of GEE within the realm of academic research in the most concise and comprehensive way. A total of 450 journal articles, spanning 150 journals, were analysed from January 2010 to May 2020 - you can see their findings below:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GEE-applications.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">GEE applications <span class="citation" data-cites="amaniGoogleEarthEngine2020">(<a href="references.html#ref-amaniGoogleEarthEngine2020" role="doc-biblioref">Amani et al. 2020</a>)</span>.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="GEE-percentages.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Number and percentage of journal papers related to GEE applications, published in each discipline provided in the previous figure <span class="citation" data-cites="amaniGoogleEarthEngine2020">(<a href="references.html#ref-amaniGoogleEarthEngine2020" role="doc-biblioref">Amani et al. 2020</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Considering how with each new year the news headlines are more and more populated with increasing volumes of natural disasters all across the world but especially in the most deprived regions, I found the application of GEE in disaster management most interesting and a positive development given the platform’s free-for-all access.</p>
+<p>I found quite a few studies that utilised GEE to estimate projected damage following various natural disasters. An article by <span class="citation" data-cites="kulinanRapidWildfireDamage2024">(<a href="references.html#ref-kulinanRapidWildfireDamage2024" role="doc-biblioref">Kulinan et al. 2024</a>)</span> used the platform to address the limitations of existing techniques for assessing wildfire damage by proposing an integrated machine learning approach using Sentinel-2 imagery from GEE. By leveraging auto-generated training samples and object-based image analysis (OBIA), the study sought to automate and improve the accuracy of wildfire damage assessments. This research conducted in South Korea demonstrated the effectiveness of the proposed method in rapidly estimating burn severity and facilitating immediate mitigation actions during wildfires. Compared to traditional satellite imagery analysis methods, the approach utilising GEE offered greater efficiency, automation, and accuracy, reaffirming its significance in enhancing rapid disaster response and management efforts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Kulinan.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Example of Random Forest classifier showing the advantage of object-based classification in the removal of salt-and-pepper noise in Uljin and Gangneung. <span class="citation" data-cites="kulinanRapidWildfireDamage2024">(<a href="references.html#ref-kulinanRapidWildfireDamage2024" role="doc-biblioref">Kulinan et al. 2024</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Moving from damage projections to recovery monitoring, a study by <span class="citation" data-cites="ghaffarianPostDisasterRecoveryMonitoring2020">(<a href="references.html#ref-ghaffarianPostDisasterRecoveryMonitoring2020" role="doc-biblioref">Ghaffarian, Rezaie Farhadabad, and Kerle 2020</a>)</span> assessed GEE’s suitability in tracking post-disaster recovery following Typhoon Haiyan’s impact on Leyte island, Philippines. By leveraging GEE’s remote sensing data and computing capabilities, the study developed a method to generate damage and recovery maps using Landsat satellite imagery. Results showed significant recovery over three years, emphasising GEE’s potential for monitoring large-scale recovery processes. However, limitations in analysing complex urban areas due to the lack of high-resolution data were noted. Nevertheless, even considering certain limitations, GEE offers relatively rapid and cost-effective tools for assessing recovery, surpassing traditional satellite imagery analysis methods.</p>
 </section>
 <section id="reflections" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">5.3</span> Reflections</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-amaniGoogleEarthEngine2020" class="csl-entry" role="listitem">
+Amani, Meisam, Arsalan Ghorbanian, Seyed Ali Ahmadi, Mohammad Kakooei, Armin Moghimi, S. Mohammad Mirmazloumi, Sayyed Hamed Alizadeh Moghaddam, et al. 2020. <span>“Google <span>Earth Engine Cloud Computing Platform</span> for <span>Remote Sensing Big Data Applications</span>: <span>A Comprehensive Review</span>.”</span> <em>IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</em> 13: 5326–50. <a href="https://doi.org/10.1109/JSTARS.2020.3021052">https://doi.org/10.1109/JSTARS.2020.3021052</a>.
+</div>
+<div id="ref-GetStartedEarth2023" class="csl-entry" role="listitem">
+<span>“Get <span>Started</span> with <span>Earth Engine</span>.”</span> 2023. Google Earth Engine. 2023. <a href="https://developers.google.com/earth-engine/guides/getstarted">https://developers.google.com/earth-engine/guides/getstarted</a>.
+</div>
+<div id="ref-ghaffarianPostDisasterRecoveryMonitoring2020" class="csl-entry" role="listitem">
+Ghaffarian, Saman, Ali Rezaie Farhadabad, and Norman Kerle. 2020. <span>“Post-<span>Disaster Recovery Monitoring</span> with <span>Google Earth Engine</span>.”</span> <em>Applied Sciences</em> 10 (13): 4574. <a href="https://doi.org/10.3390/app10134574">https://doi.org/10.3390/app10134574</a>.
+</div>
+<div id="ref-kulinanRapidWildfireDamage2024" class="csl-entry" role="listitem">
+Kulinan, Almo Senja, Younghyun Cho, Minsoo Park, and Seunghee Park. 2024. <span>“Rapid Wildfire Damage Estimation Using Integrated Object-Based Classification with Auto-Generated Training Samples from <span>Sentinel-2</span> Imagery on <span>Google Earth Engine</span>.”</span> <em>International Journal of Applied Earth Observation and Geoinformation</em> 126 (February): 103628. <a href="https://doi.org/10.1016/j.jag.2023.103628">https://doi.org/10.1016/j.jag.2023.103628</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->

@@ -5,6 +5,45 @@ bibliography: references.bib
 
 ## Summary
 
+This week's lecture provided an introduction to Google Earth Engine (GEE) - content below will aim to summarise the most important things to note about this platform and discuss its many applications.
+
+**What is GEE?** A *cloud-based platform* for analysing geospatial data and conducting *large-scale* remote sensing analysis using *Javascript* (code runs on both server (*backend*) and client (*frontend*) side).
+
+**Why should we use it?** For one thing, it significantly decreases processing time and is openly available to anyone who wishes to use it. More specifically, though, the entire image collection does not need to be loaded repeatedly during looping.
+
+**Things to know when using GEE:**
+
+-   Raster = image
+-   Collection = several images or polygons
+-   Image scale = pixel resolution (set by the output not input)
+-   GEE transforms all data into the Mercator projection (EPSG: 3857)
+-   Object = vector, raster, feature, string, number
+-   Geometry = point/line/polygon (no attributes)
+-   Feature = geometry (with attributes)
+-   Feature collection = several features
+
+**What can we do in GEE?**
+
+-   Geometry operations (e.g. spatial operations) e.g., joins, filtering, zonal statistics, etc.
+-   Methods e.g., machine learning, classification, deep learning, etc.
+-   Applications/outputs e.g., online charts, scalable applications for geospatial data with GEE, etc.
+
+![The Earth Engine Code Editor [@GetStartedEarth2023].](GEE-interface.png)
+
 ## Applications
+
+As far as I'm aware, [@amaniGoogleEarthEngine2020] have summarised all possible applications of GEE within the realm of academic research in the most concise and comprehensive way. A total of 450 journal articles, spanning 150 journals, were analysed from January 2010 to May 2020 - you can see their findings below:
+
+![GEE applications [@amaniGoogleEarthEngine2020].](GEE-applications.png)
+
+![Number and percentage of journal papers related to GEE applications, published in each discipline provided in the previous figure [@amaniGoogleEarthEngine2020].](GEE-percentages.png)
+
+Considering how with each new year the news headlines are more and more populated with increasing volumes of natural disasters all across the world but especially in the most deprived regions, I found the application of GEE in disaster management most interesting and a positive development given the platform's free-for-all access.
+
+I found quite a few studies that utilised GEE to estimate projected damage following various natural disasters. An article by [@kulinanRapidWildfireDamage2024] used the platform to address the limitations of existing techniques for assessing wildfire damage by proposing an integrated machine learning approach using Sentinel-2 imagery from GEE. By leveraging auto-generated training samples and object-based image analysis (OBIA), the study sought to automate and improve the accuracy of wildfire damage assessments. This research conducted in South Korea demonstrated the effectiveness of the proposed method in rapidly estimating burn severity and facilitating immediate mitigation actions during wildfires. Compared to traditional satellite imagery analysis methods, the approach utilising GEE offered greater efficiency, automation, and accuracy, reaffirming its significance in enhancing rapid disaster response and management efforts.
+
+![Example of Random Forest classifier showing the advantage of object-based classification in the removal of salt-and-pepper noise in Uljin and Gangneung. [@kulinanRapidWildfireDamage2024].](Kulinan.png)
+
+Moving from damage projections to recovery monitoring, a study by [@ghaffarianPostDisasterRecoveryMonitoring2020] assessed GEE's suitability in tracking post-disaster recovery following Typhoon Haiyan's impact on Leyte island, Philippines. By leveraging GEE's remote sensing data and computing capabilities, the study developed a method to generate damage and recovery maps using Landsat satellite imagery. Results showed significant recovery over three years, emphasising GEE's potential for monitoring large-scale recovery processes. However, limitations in analysing complex urban areas due to the lack of high-resolution data were noted. Nevertheless, even considering certain limitations, GEE offers relatively rapid and cost-effective tools for assessing recovery, surpassing traditional satellite imagery analysis methods.
 
 ## Reflections
