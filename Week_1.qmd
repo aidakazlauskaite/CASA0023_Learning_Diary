@@ -67,6 +67,6 @@ A very interesting application of using remotely sensed data in aquatic wildlife
 
 Another fascinating area where remotely sensed data is offering solutions to a multitude of problems is urban planning. Challenges such as urban sprawl and growth monitoring, heat island effects and microclimate analysis, disaster preparedness and response facilitation (amongst *many* others), all become much more manageable with satellite data.
 
-Utilising Land Surface Temperature (LST) data based on Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station observations from 2018 to 2021, Yin et al. discovered *"persistent negative correlations between daytime land surface temperature (LST) and median household income across the Los Angeles metropolitan area"* \[yinUnequalExposureHeatwaves2023\]. These findings are crucial given the projection of more frequent and intense heat waves in the future as it becomes imperative to implement fair mitigation strategies.
+Utilising Land Surface Temperature (LST) data based on Ecosystem Spaceborne Thermal Radiometer Experiment on Space Station observations from 2018 to 2021, Yin et al. discovered *"persistent negative correlations between daytime land surface temperature (LST) and median household income across the Los Angeles metropolitan area"* [@yinUnequalExposureHeatwaves2023]. These findings are crucial given the projection of more frequent and intense heat waves in the future as it becomes imperative to implement fair mitigation strategies.
 
 ## Reflections
