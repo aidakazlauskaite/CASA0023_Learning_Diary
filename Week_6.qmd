@@ -53,7 +53,7 @@ When constructing a decision tree, the terminal nodes may consist of a blend of 
 
 Random forests is a multitude of classification decision trees. They are created by constructing multiple decision trees from bootstrapped samples of the training data and using random subsets of features for each tree's node splitting.
 
-![Example of random forest classification [@shafiRandomForestClassification2023].](random-forest.png)
+![Example of random forest classification [@shafiRandomForestClassification2023].](random-forests.png)
 
 ### Image classification
 
