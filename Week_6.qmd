@@ -39,15 +39,15 @@ When constructing a decision tree, the terminal nodes may consist of a blend of 
 
 *A few considerations:*
 
-- How do we choose where the breaks would be in our data? Do we consider residuals?
-- What happens if linear regression is not suitable for the data?
-  - Partition the data into sections based on specific thresholds (nodes) and compute the sum of squared residuals;
-  - Examine the sum of squared residuals (SSR) across various thresholds, identify the one with the lowest SSR to establish as the root of the tree. Repeat this process.
+-   How do we choose where the breaks would be in our data? Do we consider residuals?
+-   What happens if linear regression is not suitable for the data?
+    -   Partition the data into sections based on specific thresholds (nodes) and compute the sum of squared residuals;
+    -   Examine the sum of squared residuals (SSR) across various thresholds, identify the one with the lowest SSR to establish as the root of the tree. Repeat this process.
 
 *Notes on overfitting:*
 
-- Ideally, our best model would have low bias (i.e., small difference between predicted value and true value) and low variance (i.e., low variability of model for a given point).
-- To prevent overfitting, we can either prune weakest links or limit how trees grow.
+-   Ideally, our best model would have low bias (i.e., small difference between predicted value and true value) and low variance (i.e., low variability of model for a given point).
+-   To prevent overfitting, we can either prune weakest links or limit how trees grow.
 
 #### Random Forests
 
@@ -71,8 +71,8 @@ Recent studies utilise machine learning or expert systems (such as Support Vecto
 
 While there's countless ways in which the previously mentioned models could be applied to, I have chosen to review a few studies that specifically used Random Forests classifier for remotely sensed image classification, mostly because I have had the least interaction with this classifier in lectures before and was keen to see how researchers have been using it recently.
 
-[@guoRelevanceAirborneLidar2011] published a study that aimed to assess the importance of input features in urban mapping by utilising a multi-source framework combining aerial lidar (multi-echo and full waveform) and multispectral image data. It employed the Random Forests algorithm as a classifier due to its efficiency with large datasets and ability to provide measures of feature importance for each class. By using the margin theory as a confidence measure, the study aimed to confirm the relevance of input features for urban classification. The quantitative results affirmed the significance of integrating optical multispectral and lidar data, highlighting the importance of full-waveform lidar features for distinguishing between building and vegetation areas. This research is crucial for urban scene recognition and urban policy development, as it provides insights into effective methods for utilising advanced technologies in urban mapping and classification.
+@guoRelevanceAirborneLidar2011 published a study that aimed to assess the importance of input features in urban mapping by utilising a multi-source framework combining aerial lidar (multi-echo and full waveform) and multispectral image data. It employed the Random Forests algorithm as a classifier due to its efficiency with large datasets and ability to provide measures of feature importance for each class. By using the margin theory as a confidence measure, the study aimed to confirm the relevance of input features for urban classification. The quantitative results affirmed the significance of integrating optical multispectral and lidar data, highlighting the importance of full-waveform lidar features for distinguishing between building and vegetation areas. This research is crucial for urban scene recognition and urban policy development, as it provides insights into effective methods for utilising advanced technologies in urban mapping and classification.
 
-Almost poetic - the article by [@linhuiExtractingForestType2021] aimed to improve the accuracy of classifying forest types in the Laoshan construction area of the Maoershan Forest Farm, Heilongjiang Province, using remote sensing images and a Random Forests classifier. It addressed the challenge of low accuracy in extracting forest type information from high-resolution images and the lack of effective identification methods. By employing a multi-source dataset including GF-2 remote sensing images, aerial RGB images, and forest inventory data, the study utilised multiscale segmentation and feature space construction to establish an object-oriented random forest (RF) scheme. Comparative experiments with the support vector machine (SVM) classifier demonstrated that the RF scheme achieved higher overall accuracy and kappa coefficient, indicating its effectiveness in improving the classification accuracy of forest types. This research contributes to advancing land cover classification and land use/land cover (LULC) monitoring by providing a more accurate and reliable method for identifying and monitoring forest resources.
+Almost poetic - the article by @linhuiExtractingForestType2021 aimed to improve the accuracy of classifying forest types in the Laoshan construction area of the Maoershan Forest Farm, Heilongjiang Province, using remote sensing images and a Random Forests classifier. It addressed the challenge of low accuracy in extracting forest type information from high-resolution images and the lack of effective identification methods. By employing a multi-source dataset including GF-2 remote sensing images, aerial RGB images, and forest inventory data, the study utilised multiscale segmentation and feature space construction to establish an object-oriented random forest (RF) scheme. Comparative experiments with the support vector machine (SVM) classifier demonstrated that the RF scheme achieved higher overall accuracy and kappa coefficient, indicating its effectiveness in improving the classification accuracy of forest types. This research contributes to advancing land cover classification and land use/land cover (LULC) monitoring by providing a more accurate and reliable method for identifying and monitoring forest resources.
 
 ## Reflections
