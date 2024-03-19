@@ -63,9 +63,9 @@ $$F1= \frac{TP}{TP+1/2*(FP+FN)}$$
 
 *Approaches to take in order to make sure our accuracy assessment is truthful:*
 
-- Train and test split (roughly 70% train - 30% test data split).
-- Cross validation - or take it to the extremes and opt for leave one out cross validation (only for smaller datasets).
-- Spatial cross validation - to address the issue of potential spatial autocorrelation - partition the folded data spatially, with folds used for cross-validation. If not addressed, the accuracy assessment will claim that classifier performs more precisely than it would do on unseen data in reality.
+-   Train and test split (roughly 70% train - 30% test data split).
+-   Cross validation - or take it to the extremes and opt for leave one out cross validation (only for smaller datasets).
+-   Spatial cross validation - to address the issue of potential spatial autocorrelation - partition the folded data spatially, with folds used for cross-validation. If not addressed, the accuracy assessment will claim that classifier performs more precisely than it would do on unseen data in reality.
 
 ## Applications
 
@@ -74,5 +74,7 @@ The application section will review literature where the two new classifier type
 A study by @parkApplicationSpectralMixture2020 aimed to enhance maritime safety through the detection and monitoring of vessels using airborne hyperspectral imaging. Employing pixel-based mixture techniques and objective ellipse fitting methods, researchers accurately detected and estimated the sizes of marine vessels, particularly fishing boats and yachts. Through various spectral analyses and dimensionality reduction techniques like principal component analysis, the study successfully detected vessels using algorithms like N-FINDR, PPI, ICA, and VCA. The application of these techniques resulted in high probabilities of vessel detection, with a probability of detection (POD) of 96.40% and a false alarm ratio (FAR) of 4.30%, aiding in preventing maritime accidents by providing efficient monitoring over wide coastal areas at high resolutions.
 
 Another study by @blaschkeObjectBasedImageAnalysis2014 had a primary objective to develop a semi-automated object-based image analysis (OBIA) methodology for landslide detection and delineation. By integrating various satellite imagery features such as NDVI, brightness, and textural features with DEM derivatives and GLCMs, landslides were accurately identified within a study area in north-western Iran. The methodology, validated against a landslide inventory database, achieved a high overall accuracy of 93.07%, demonstrating the effectiveness of OBIA in incorporating heterogeneous parameters for landslide classification. This study highlights the potential of GEOBIA as a valuable tool in remote sensing and geographic information science, offering improved accuracy and efficiency in natural disaster prevention and management efforts.
+
+![Areas classified as “potentially affected by landslides” (highlighted in red) superimposed on the IRS panchromatic satellite image [@blaschkeObjectBasedImageAnalysis2014].](blaschke.png)
 
 ## Reflections
