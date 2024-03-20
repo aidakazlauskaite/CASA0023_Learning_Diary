@@ -102,7 +102,7 @@
     "href": "Week_4.html#manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands",
     "title": "4  Policy",
     "section": "4.1 Manila: using remotely sensed data to deal with urban heat islands",
-    "text": "4.1 Manila: using remotely sensed data to deal with urban heat islands\n\n4.1.1 Summary\n\n\n4.1.2 Applications\n\n\n4.1.3 Reflections"
+    "text": "4.1 Manila: using remotely sensed data to deal with urban heat islands\nMy chosen city is Manila, the capital of the Philippines, located in the northern Philippines archipelago.\n\n\n\nSource: (Ang 2019)."
   },
   {
     "objectID": "Week_5.html#summary",
@@ -180,5 +180,40 @@
     "title": "CASA0023 Learning Diary",
     "section": "",
     "text": "About\nHi everyone!\nMy name is Aida - I was born and raised in Vilnius, Lithuania, before moving to London to do my undergraduate degree in BSc Economics and Geography at University College London. I am currently pursuing a postgraduate degree in MSc Social and Geographic Data Science (in UCL Geography department once again!).\nOutside of my studies, I am a massive endurance sports enthusiast. Last year I summitted Mount Kilimanjaro (5895m) and this year I decided to take on my first ultramarathon (58km) in May (with a 75km one to follow later this year). Some of my biggest dreams are to tackle a full distance Ironman triathlon and as many races as possible from the UTMB series, however, one step at a time for now!"
+  },
+  {
+    "objectID": "Week_4.html",
+    "href": "Week_4.html",
+    "title": "4  Policy",
+    "section": "",
+    "text": "5 Manila: using remotely sensed data to deal with urban heat islands"
+  },
+  {
+    "objectID": "Week_4.html#summary",
+    "href": "Week_4.html#summary",
+    "title": "4  Policy",
+    "section": "4.2 Summary",
+    "text": "4.2 Summary\nBefore even starting to discuss Manila specifically, it must be noted that the Philippines ranks as one of the most rapidly urbanising countries in the world, with more than 60% or its population living in cities; what is more, this number is predicted to reach 84% by 2050 (“Addressing Urban Heat in Metro Manila Cities: Urban Heat in the Philippine Context” 2019). As a capital city, it is not surprising that Manila is disproportionately burdened by the extreme rates of urban sprawl and population growth the country as a whole is facing.\n\n\n\nChanges in land cover map of Metro Manila indicating urban sprawl growth over a period of 34 years (LANDSAT TM, 23 December 1972, 25 January 1989, and 12 January 2006) (Andong and Sajor 2017).\n\n\nAs urban sprawl continues and population growth surges in Metro Manila, the city grapples with a multitude of challenges like traffic congestion, air pollution, informal settlements/slums, inadequate infrastructure, flooding, waste management challenges, longer hotter season (El Niño Phenomena), and vulnerability to natural disasters, factors all of which collectively exacerbate the urban heat island (i.e.,a phenomenon wherein urban regions encounter higher temperatures compared to adjacent rural areas) problem in the metropolitan area. Urban heat islands (UHI) can lead to heightened risks of health-related issues, heightened energy usage, increased pollution levels, and compromised water quality (Zhou et al. 2018). Given the potential adverse effects on cities and their residents, it’s imperative to utilise existing resources and data to identify and measure these impacts.\nThrough the promotion of inclusivity, safety, and resilience in cities and human settlements, SDG 11, among the United Nations’ “17 Sustainable Development Goals”, underscores the significant role that cities hold in the global political agenda (WorldBank 2017). SDG Goal 11, aimed at making cities and human settlements inclusive, safe, resilient, and sustainable, directly aligns with Manila’s context by highlighting the city’s ongoing endeavors to combat urban heat island effects, enhance infrastructure resilience, and promote equitable access to green spaces, thereby fostering a more livable and sustainable urban environment for all residents.\nIn Manila, the responsibility for tackling urban heat island (UHI) issues would likely fall under the jurisdiction of multiple government agencies, including the Department of Environment and Natural Resources (DENR), the Metropolitan Manila Development Authority (MMDA), The Department of Human Settlements and Urban Development (DHSUD), and the local government units (LGUs) of the smaller areal units within Metro Manila (MM). To my knowledge, these agencies often collaborate to implement policies and initiatives aimed at mitigating UHI effects and improving urban climate resilience.\nIn a relatively recent report to the World Bank, MMDA and DHSUD have outlined their action plan detailing UHI mitigation measures proposed (“Addressing Urban Heat in Metro Manila Cities: Urban Heat in the Philippine Context” 2019). Suggested solutions rely heavily on previous successful case studies from cities like Guangzhou (i.e., as a Sponge City — Haizhu wetlands), Paris (i.e., as a Sponge and Waterproof City), and, most importantly, Singapore (i.e, Green Plan 2030, Digital Urban Climate Twin). Science-based UHI strategies through scenario building and comprehensive mapping are identified as a key takeaway, suggested transfer to the MM context includes the following:\n\nCapacity-building\n\nAcquisition/development of programs and platforms\nInstallation and rehabilitation of sensors\nWorkshops on UHI\n\nIdentification of Baseline, KPIs and Targets\n\nStakeholder consultation\n\nSurveys\nMulti-agency meetings\n\n\nGeospatial analysis\n\nMapping of vulnerability of MM cities to UHI\nMapping of existing Urban Green Spaces\n\nMonitoring and Evaluation\n\nAssessment through KPIs\nEstablishment of feedback mechanism\n\nValuation of natural resources"
+  },
+  {
+    "objectID": "Week_4.html#applications",
+    "href": "Week_4.html#applications",
+    "title": "4  Policy",
+    "section": "4.3 Applications",
+    "text": "4.3 Applications\nWhile “Addressing Urban Heat in Metro Manila Cities: Urban Heat in the Philippine Context” (2019) does not go into detailed plans on how this action plan will be implemented in reality, there is no doubt that remotely sensed data will be crucial throughout the process, particularly during the geospatial analysis as well as monitoring and evaluation stages.\nFor mapping the vulnerability of MM cities to UHI and identifying existing urban green spaces, data from satellites and sensors such as Landsat, Sentinel-2, and MODIS can be utilised. These platforms provide multispectral and thermal imagery suitable for assessing land surface temperature variations and vegetation cover. Additionally, sensors like ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer) and WorldView offer high-resolution imagery for detailed analysis of urban features and green spaces. Integrating data from these sources enables comprehensive geospatial analysis to support urban planning and management efforts in addressing UHI and enhancing green infrastructure."
+  },
+  {
+    "objectID": "Week_4.html#reflections",
+    "href": "Week_4.html#reflections",
+    "title": "4  Policy",
+    "section": "4.5 Reflections",
+    "text": "4.5 Reflections\n\n\n\n\n“Addressing Urban Heat in Metro Manila Cities: Urban Heat in the Philippine Context.” 2019. World Bank. https://www.thegpsc.org/sites/gpsc/files/5._philippines.pdf.\n\n\nAndong, Rebeca Fontanilla, and Edsel Sajor. 2017. “Urban Sprawl, Public Transport, and Increasing CO2 Emissions: The Case of Metro Manila, Philippines.” Environment, Development and Sustainability 19 (1): 99–123. https://doi.org/10.1007/s10668-015-9729-8.\n\n\nAng, Raymond. 2019. “Where To Stay in Manila.” Forbes Vetted. 2019. https://www.forbes.com/sites/raymondang/2019/07/07/where-to-stay-in-manila/.\n\n\nWorldBank. 2017. “Issue Brief for SDG 11—Sustainable Cities and Communities: Make Cities and Human Settlements Inclusive, Safe, Resilient, and Sustainable.” Washington, D.C.: World Bank.\n\n\nZhou, Decheng, Jingfeng Xiao, Stefania Bonafoni, Christian Berger, Kaveh Deilami, Yuyu Zhou, Steve Frolking, Rui Yao, Zhi Qiao, and José Sobrino. 2018. “Satellite Remote Sensing of Surface Urban Heat Islands: Progress, Challenges, and Perspectives.” Remote Sensing 11 (1): 48. https://doi.org/10.3390/rs11010048."
+  },
+  {
+    "objectID": "Week_4.html#limitations",
+    "href": "Week_4.html#limitations",
+    "title": "4  Policy",
+    "section": "4.4 Limitations",
+    "text": "4.4 Limitations\n\n\n\nSource: (“Addressing Urban Heat in Metro Manila Cities: Urban Heat in the Philippine Context” 2019)."
   }
 ]

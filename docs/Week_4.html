@@ -20,7 +20,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -169,12 +188,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands" id="toc-manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands" class="nav-link active" data-scroll-target="#manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands"><span class="header-section-number">4.1</span> Manila: using remotely sensed data to deal with urban heat islands</a>
-  <ul class="collapse">
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">4.1.1</span> Summary</a></li>
-  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">4.1.2</span> Applications</a></li>
-  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">4.1.3</span> Reflections</a></li>
-  </ul></li>
+  <li><a href="#manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands" id="toc-manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands" class="nav-link active" data-scroll-target="#manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands"><span class="header-section-number">4.1</span> Manila: using remotely sensed data to deal with urban heat islands</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary"><span class="header-section-number">4.2</span> Summary</a></li>
+  <li><a href="#applications" id="toc-applications" class="nav-link" data-scroll-target="#applications"><span class="header-section-number">4.3</span> Applications</a></li>
+  <li><a href="#limitations" id="toc-limitations" class="nav-link" data-scroll-target="#limitations"><span class="header-section-number">4.4</span> Limitations</a></li>
+  <li><a href="#reflections" id="toc-reflections" class="nav-link" data-scroll-target="#reflections"><span class="header-section-number">4.5</span> Reflections</a></li>
   </ul>
 </nav>
     </div>
@@ -200,17 +218,90 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="manila-using-remotely-sensed-data-to-deal-with-urban-heat-islands"><span class="header-section-number">4.1</span> Manila: using remotely sensed data to deal with urban heat islands</h2>
-<section id="summary" class="level3" data-number="4.1.1">
-<h3 data-number="4.1.1" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.1.1</span> Summary</h3>
+<p>My chosen city is Manila, the capital of the Philippines, located in the northern Philippines archipelago.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Manila.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: <span class="citation" data-cites="angWhereStayManila2019">(<a href="references.html#ref-angWhereStayManila2019" role="doc-biblioref">Ang 2019</a>)</span>.</figcaption>
+</figure>
+</div>
 </section>
-<section id="applications" class="level3" data-number="4.1.2">
-<h3 data-number="4.1.2" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.1.2</span> Applications</h3>
+<section id="summary" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="summary"><span class="header-section-number">4.2</span> Summary</h2>
+<p>Before even starting to discuss Manila specifically, it must be noted that the Philippines ranks as one of the most rapidly urbanising countries in the world, with more than 60% or its population living in cities; what is more, this number is predicted to reach 84% by 2050 <span class="citation" data-cites="AddressingUrbanHeat2019">(<a href="references.html#ref-AddressingUrbanHeat2019" role="doc-biblioref"><span>“Addressing <span>Urban Heat</span> in <span>Metro Manila Cities</span>: <span>Urban Heat</span> in the <span>Philippine Context</span>”</span> 2019</a>)</span>. As a capital city, it is not surprising that Manila is disproportionately burdened by the extreme rates of urban sprawl and population growth the country as a whole is facing.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Manila-land-cover.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Changes in land cover map of Metro Manila indicating urban sprawl growth over a period of 34 years (LANDSAT TM, 23 December 1972, 25 January 1989, and 12 January 2006) <span class="citation" data-cites="andongUrbanSprawlPublic2017">(<a href="references.html#ref-andongUrbanSprawlPublic2017" role="doc-biblioref">Andong and Sajor 2017</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>As urban sprawl continues and population growth surges in Metro Manila, the city grapples with a multitude of challenges like traffic congestion, air pollution, informal settlements/slums, inadequate infrastructure, flooding, waste management challenges, longer hotter season (<em>El Niño Phenomena</em>), and vulnerability to natural disasters, factors all of which collectively exacerbate the <strong>urban heat island</strong> (i.e.,a phenomenon wherein urban regions encounter higher temperatures compared to adjacent rural areas) problem in the metropolitan area. Urban heat islands (UHI) can lead to heightened risks of health-related issues, heightened energy usage, increased pollution levels, and compromised water quality <span class="citation" data-cites="zhouSatelliteRemoteSensing2018">(<a href="references.html#ref-zhouSatelliteRemoteSensing2018" role="doc-biblioref">Zhou et al. 2018</a>)</span>. Given the potential adverse effects on cities and their residents, it’s imperative to utilise existing resources and data to identify and measure these impacts.</p>
+<p>Through the promotion of inclusivity, safety, and resilience in cities and human settlements, SDG 11, among the United Nations’ “17 Sustainable Development Goals”, underscores the significant role that cities hold in the global political agenda <span class="citation" data-cites="worldbankIssueBriefSDG2017">(<a href="references.html#ref-worldbankIssueBriefSDG2017" role="doc-biblioref">WorldBank 2017</a>)</span>. SDG Goal 11, aimed at <em>making cities and human settlements inclusive, safe, resilient, and sustainable</em>, directly aligns with Manila’s context by highlighting the city’s ongoing endeavors to combat urban heat island effects, enhance infrastructure resilience, and promote equitable access to green spaces, thereby fostering a more livable and sustainable urban environment for all residents.</p>
+<p>In Manila, the responsibility for tackling urban heat island (UHI) issues would likely fall under the jurisdiction of multiple government agencies, including the Department of Environment and Natural Resources (DENR), the Metropolitan Manila Development Authority (MMDA), The Department of Human Settlements and Urban Development (DHSUD), and the local government units (LGUs) of the smaller areal units within Metro Manila (MM). To my knowledge, these agencies often collaborate to implement policies and initiatives aimed at mitigating UHI effects and improving urban climate resilience.</p>
+<p>In a relatively recent report to the World Bank, MMDA and DHSUD have outlined their action plan detailing UHI mitigation measures proposed <span class="citation" data-cites="AddressingUrbanHeat2019">(<a href="references.html#ref-AddressingUrbanHeat2019" role="doc-biblioref"><span>“Addressing <span>Urban Heat</span> in <span>Metro Manila Cities</span>: <span>Urban Heat</span> in the <span>Philippine Context</span>”</span> 2019</a>)</span>. Suggested solutions rely heavily on previous successful case studies from cities like Guangzhou (i.e., as a Sponge City — Haizhu wetlands), Paris (i.e., as a Sponge and Waterproof City), and, most importantly, Singapore (i.e, Green Plan 2030, Digital Urban Climate Twin). Science-based UHI strategies through scenario building and comprehensive mapping are identified as a key takeaway, suggested transfer to the MM context includes the following:</p>
+<ul>
+<li>Capacity-building
+<ul>
+<li>Acquisition/development of programs and platforms</li>
+<li>Installation and rehabilitation of sensors</li>
+<li>Workshops on UHI</li>
+</ul></li>
+<li>Identification of Baseline, KPIs and Targets
+<ul>
+<li>Stakeholder consultation
+<ul>
+<li>Surveys</li>
+<li>Multi-agency meetings</li>
+</ul></li>
+</ul></li>
+<li>Geospatial analysis
+<ul>
+<li>Mapping of vulnerability of MM cities to UHI</li>
+<li>Mapping of existing Urban Green Spaces</li>
+</ul></li>
+<li>Monitoring and Evaluation
+<ul>
+<li>Assessment through KPIs</li>
+<li>Establishment of feedback mechanism</li>
+</ul></li>
+<li>Valuation of natural resources</li>
+</ul>
 </section>
-<section id="reflections" class="level3" data-number="4.1.3">
-<h3 data-number="4.1.3" class="anchored" data-anchor-id="reflections"><span class="header-section-number">4.1.3</span> Reflections</h3>
+<section id="applications" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="applications"><span class="header-section-number">4.3</span> Applications</h2>
+<p>While <span class="citation" data-cites="AddressingUrbanHeat2019"><span>“Addressing <span>Urban Heat</span> in <span>Metro Manila Cities</span>: <span>Urban Heat</span> in the <span>Philippine Context</span>”</span> (<a href="references.html#ref-AddressingUrbanHeat2019" role="doc-biblioref">2019</a>)</span> does not go into detailed plans on how this action plan will be implemented in reality, there is no doubt that remotely sensed data will be crucial throughout the process, particularly during the geospatial analysis as well as monitoring and evaluation stages.</p>
+<p>For mapping the vulnerability of MM cities to UHI and identifying existing urban green spaces, data from satellites and sensors such as Landsat, Sentinel-2, and MODIS can be utilised. These platforms provide multispectral and thermal imagery suitable for assessing land surface temperature variations and vegetation cover. Additionally, sensors like ASTER (Advanced Spaceborne Thermal Emission and Reflection Radiometer) and WorldView offer high-resolution imagery for detailed analysis of urban features and green spaces. Integrating data from these sources enables comprehensive geospatial analysis to support urban planning and management efforts in addressing UHI and enhancing green infrastructure.</p>
+</section>
+<section id="limitations" class="level2" data-number="4.4">
+<h2 data-number="4.4" class="anchored" data-anchor-id="limitations"><span class="header-section-number">4.4</span> Limitations</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="limitations.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: <span class="citation" data-cites="AddressingUrbanHeat2019">(<a href="references.html#ref-AddressingUrbanHeat2019" role="doc-biblioref"><span>“Addressing <span>Urban Heat</span> in <span>Metro Manila Cities</span>: <span>Urban Heat</span> in the <span>Philippine Context</span>”</span> 2019</a>)</span>.</figcaption>
+</figure>
+</div>
+</section>
+<section id="reflections" class="level2" data-number="4.5">
+<h2 data-number="4.5" class="anchored" data-anchor-id="reflections"><span class="header-section-number">4.5</span> Reflections</h2>
 
 
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-AddressingUrbanHeat2019" class="csl-entry" role="listitem">
+<span>“Addressing <span>Urban Heat</span> in <span>Metro Manila Cities</span>: <span>Urban Heat</span> in the <span>Philippine Context</span>.”</span> 2019. World Bank. <a href="https://www.thegpsc.org/sites/gpsc/files/5._philippines.pdf">https://www.thegpsc.org/sites/gpsc/files/5._philippines.pdf</a>.
+</div>
+<div id="ref-andongUrbanSprawlPublic2017" class="csl-entry" role="listitem">
+Andong, Rebeca Fontanilla, and Edsel Sajor. 2017. <span>“Urban Sprawl, Public Transport, and Increasing <span>CO2</span> Emissions: The Case of <span>Metro Manila</span>, <span>Philippines</span>.”</span> <em>Environment, Development and Sustainability</em> 19 (1): 99–123. <a href="https://doi.org/10.1007/s10668-015-9729-8">https://doi.org/10.1007/s10668-015-9729-8</a>.
+</div>
+<div id="ref-angWhereStayManila2019" class="csl-entry" role="listitem">
+Ang, Raymond. 2019. <span>“Where <span>To Stay</span> in <span>Manila</span>.”</span> Forbes Vetted. 2019. <a href="https://www.forbes.com/sites/raymondang/2019/07/07/where-to-stay-in-manila/">https://www.forbes.com/sites/raymondang/2019/07/07/where-to-stay-in-manila/</a>.
+</div>
+<div id="ref-worldbankIssueBriefSDG2017" class="csl-entry" role="listitem">
+WorldBank. 2017. <span>“Issue <span>Brief</span> for <span>SDG</span> 11—<span>Sustainable Cities</span> and <span>Communities</span>: <span>Make Cities</span> and <span>Human Settlements Inclusive</span>, <span>Safe</span>, <span>Resilient</span>, and <span>Sustainable</span>.”</span> Washington, D.C.: World Bank.
+</div>
+<div id="ref-zhouSatelliteRemoteSensing2018" class="csl-entry" role="listitem">
+Zhou, Decheng, Jingfeng Xiao, Stefania Bonafoni, Christian Berger, Kaveh Deilami, Yuyu Zhou, Steve Frolking, Rui Yao, Zhi Qiao, and José Sobrino. 2018. <span>“Satellite <span>Remote Sensing</span> of <span>Surface Urban Heat Islands</span>: <span>Progress</span>, <span>Challenges</span>, and <span>Perspectives</span>.”</span> <em>Remote Sensing</em> 11 (1): 48. <a href="https://doi.org/10.3390/rs11010048">https://doi.org/10.3390/rs11010048</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
