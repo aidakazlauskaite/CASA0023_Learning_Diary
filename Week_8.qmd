@@ -40,4 +40,12 @@ So why should we care? The **consequences of the effects of UHI** worsening are 
 
 ## Applications
 
+In this applications section I chose to focus on excess mortality related to UHI effects. While none of the potential consequences of the UHI effect are to be taken lightly, the positive correlation between heightened sustained temperatures and excess mortality is the most vivid example of just how serious this problem really is.
+
+In the study by @tanUrbanHeatIsland2010 the authors investigated the health impacts of the urban heat island (UHI) effect specifically in Shanghai, China, against the backdrop of anticipated increases in heat waves due to global warming. Through a comprehensive analysis of meteorological data spanning three decades and mortality records from urban, suburban, and exurban areas, the research establishes a direct correlation between the UHI effect and heightened heat-related mortality rates observed in urban regions of Shanghai. This underscores the pressing need for targeted interventions to address the exacerbating effects of UHI on public health, particularly in rapidly urbanising areas facing escalating temperatures and more frequent heat waves induced by climate change.
+
+![The excess mortality rate and the heat island intensity for heat waves in Shanghai [@tanUrbanHeatIsland2010].](UHI.png)
+
+Another study by @dangGreenSpaceDeaths2018 aimed to quantify heat-related deaths attributable to the urban heat island (UHI) effect in Ho Chi Minh City, Vietnam, and explore potential mitigating factors. By estimating district-specific meteorological conditions and analysing mortality data, the research investigated the association between UHI and mortality rates at a finer spatial scale within the city. Yet again, with urbanisation trends and climate change exacerbating UHI effects globally, understanding the impact of UHI on mortality and identifying strategies to alleviate its consequences is crucial for public health planning and urban development in rapidly growing cities like Ho Chi Minh City.
+
 ## Reflections
