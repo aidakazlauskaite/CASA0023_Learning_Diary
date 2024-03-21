@@ -5,6 +5,39 @@ bibliography: references.bib
 
 ## Summary
 
+This week's content will focus on temperature, specifically the **Urban Heat Island (UHI)** effect. In the following video, the Weather Channel meteorologist Mark Elliot gives a quick introduction into this phenomenon:
+
+{{< video https://www.youtube.com/watch?v=-rm4zUJ48rE >}}
+
+Mark gives a quick rundown through all the possible factors that contribute to the UHI effect taking place but (just to recap) the the **two most important contributors to UHI** are:
+
+1. Greater presence of heat-absorbing dark surfaces e.g., pavements, dark rooftops, etc.
+2. Decreased vegetation cover, resulting in reduced cooling effects such as evapotranspiration and solar reflection.
+
+So why should we care? The **consequences of the effects of UHI** worsening are seemingly endless (and very well documented in academic literature!):
+
+- Heightened energy usage for cooling purposes
+- Elevated levels of air pollution and greenhouse gas emissions
+- Health hazards including heat-related illnesses and respiratory issues
+- Compromised urban livability and quality of life
+- Amplified heat-related mortality rates, particularly among vulnerable populations
+- Impacts on ecosystems and biodiversity
+- Elevated demand for water resources due to higher temperatures and increased evaporation
+- Stress on infrastructure and urban services
+
+### Policy
+
+1. **Global**
+   - **SDG 11**: aims to make cities and human settlements inclusive, safe, resilient, and sustainable, focusing on access to adequate housing, transportation, green spaces, and disaster resilience. There's no direct mention of urban heat in the targets, however, it does mention that developing parks and green spaces within urban areas can mitigate the urban heat island effect and enhance air quality in urban environments.
+   - **Beat the Heat Handbook**: following 2021 United Nations Climate Change Conference in Glasgow, this is a guidance and strategies for addressing heat-related challenges in urban areas. It is the first full guide on UHI that suggests initial evaluation and critical considerations including albedo, urban morphology, city planning, vegetation coverage, and thermal mapping incorporating satellite-derived data.
+   - **New Urban Agenda**: global agreement adopted by the UN that sets out guidelines and principles for sustainable urban development, addressing challenges such as rapid urbanisation, inequality, and environmental degradation.
+   
+2. **Local**
+   - **Superblocks** = large urban areas designed to prioritize pedestrians and cyclists while limiting vehicle traffic.
+   - **Green corridors** = linear stretches of vegetation connecting parks, gardens, and other green spaces throughout urban areas. By providing shaded pathways, enhancing biodiversity, and promoting natural cooling processes, green corridors help mitigate the UHI effect and improve urban resilience to climate change.
+   
+*Note:* there's a disconnect between global and local policies e.g., Beat the Heat Handbook doesn't actually go into specifics on how their guidelines should be followed and implemented on a smaller scale, hence, this is an issue to be addressed in order for documents and policies discussed in the *Global* section to be effective.
+
 ## Applications
 
 ## Reflections
