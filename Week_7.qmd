@@ -78,3 +78,7 @@ Another study by @blaschkeObjectBasedImageAnalysis2014 had a primary objective t
 ![Areas classified as “potentially affected by landslides” (highlighted in red) superimposed on the IRS panchromatic satellite image [@blaschkeObjectBasedImageAnalysis2014].](blaschke.png)
 
 ## Reflections
+
+Similarly to last week, it was once again quite a nice thing to have a lecture where the content wasn't all brand new and, therefore, quite intense to take in. 
+
+Something I found really peculiar when looking at the literature which had applications relevant to this lecture is the amount of articles I've seen published which had used machine learning models to classify remotely sensed data and did so with accuracy of only 70% or below. A standard practice we were taught as data science students was that in image classification usually a good threshold accuracy should be at least 90% and above, which is why it was so baffling to come across that many published works that don't reach this standard. It makes me wonder whether the accuracy standards when working with remotely sensed data differ - definitely something I will look into.

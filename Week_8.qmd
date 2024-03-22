@@ -11,31 +11,30 @@ This week's content will focus on temperature, specifically the **Urban Heat Isl
 
 Mark gives a quick rundown through all the possible factors that contribute to the UHI effect taking place but (just to recap) the the **two most important contributors to UHI** are:
 
-1. Greater presence of heat-absorbing dark surfaces e.g., pavements, dark rooftops, etc.
-2. Decreased vegetation cover, resulting in reduced cooling effects such as evapotranspiration and solar reflection.
+1.  Greater presence of heat-absorbing dark surfaces e.g., pavements, dark rooftops, etc.
+2.  Decreased vegetation cover, resulting in reduced cooling effects such as evapotranspiration and solar reflection.
 
 So why should we care? The **consequences of the effects of UHI** worsening are seemingly endless (and very well documented in academic literature!):
 
-- Heightened energy usage for cooling purposes
-- Elevated levels of air pollution and greenhouse gas emissions
-- Health hazards including heat-related illnesses and respiratory issues
-- Compromised urban livability and quality of life
-- Amplified heat-related mortality rates, particularly among vulnerable populations
-- Impacts on ecosystems and biodiversity
-- Elevated demand for water resources due to higher temperatures and increased evaporation
-- Stress on infrastructure and urban services
+-   Heightened energy usage for cooling purposes
+-   Elevated levels of air pollution and greenhouse gas emissions
+-   Health hazards including heat-related illnesses and respiratory issues
+-   Compromised urban livability and quality of life
+-   Amplified heat-related mortality rates, particularly among vulnerable populations
+-   Impacts on ecosystems and biodiversity
+-   Elevated demand for water resources due to higher temperatures and increased evaporation
+-   Stress on infrastructure and urban services
 
 ### Policy
 
-1. **Global**
-   - **SDG 11**: aims to make cities and human settlements inclusive, safe, resilient, and sustainable, focusing on access to adequate housing, transportation, green spaces, and disaster resilience. There's no direct mention of urban heat in the targets, however, it does mention that developing parks and green spaces within urban areas can mitigate the urban heat island effect and enhance air quality in urban environments.
-   - **Beat the Heat Handbook**: following 2021 United Nations Climate Change Conference in Glasgow, this is a guidance and strategies for addressing heat-related challenges in urban areas. It is the first full guide on UHI that suggests initial evaluation and critical considerations including albedo, urban morphology, city planning, vegetation coverage, and thermal mapping incorporating satellite-derived data.
-   - **New Urban Agenda**: global agreement adopted by the UN that sets out guidelines and principles for sustainable urban development, addressing challenges such as rapid urbanisation, inequality, and environmental degradation.
-   
-2. **Local**
-   - **Superblocks** = large urban areas designed to prioritize pedestrians and cyclists while limiting vehicle traffic.
-   - **Green corridors** = linear stretches of vegetation connecting parks, gardens, and other green spaces throughout urban areas. By providing shaded pathways, enhancing biodiversity, and promoting natural cooling processes, green corridors help mitigate the UHI effect and improve urban resilience to climate change.
-   
+1.  **Global**
+    -   **SDG 11**: aims to make cities and human settlements inclusive, safe, resilient, and sustainable, focusing on access to adequate housing, transportation, green spaces, and disaster resilience. There's no direct mention of urban heat in the targets, however, it does mention that developing parks and green spaces within urban areas can mitigate the urban heat island effect and enhance air quality in urban environments.
+    -   **Beat the Heat Handbook**: following 2021 United Nations Climate Change Conference in Glasgow, this is a guidance and strategies for addressing heat-related challenges in urban areas. It is the first full guide on UHI that suggests initial evaluation and critical considerations including albedo, urban morphology, city planning, vegetation coverage, and thermal mapping incorporating satellite-derived data.
+    -   **New Urban Agenda**: global agreement adopted by the UN that sets out guidelines and principles for sustainable urban development, addressing challenges such as rapid urbanisation, inequality, and environmental degradation.
+2.  **Local**
+    -   **Superblocks** = large urban areas designed to prioritize pedestrians and cyclists while limiting vehicle traffic.
+    -   **Green corridors** = linear stretches of vegetation connecting parks, gardens, and other green spaces throughout urban areas. By providing shaded pathways, enhancing biodiversity, and promoting natural cooling processes, green corridors help mitigate the UHI effect and improve urban resilience to climate change.
+
 *Note:* there's a disconnect between global and local policies e.g., Beat the Heat Handbook doesn't actually go into specifics on how their guidelines should be followed and implemented on a smaller scale, hence, this is an issue to be addressed in order for documents and policies discussed in the *Global* section to be effective.
 
 ## Applications
@@ -49,3 +48,9 @@ In the study by @tanUrbanHeatIsland2010 the authors investigated the health impa
 Another study by @dangGreenSpaceDeaths2018 aimed to quantify heat-related deaths attributable to the urban heat island (UHI) effect in Ho Chi Minh City, Vietnam, and explore potential mitigating factors. By estimating district-specific meteorological conditions and analysing mortality data, the research investigated the association between UHI and mortality rates at a finer spatial scale within the city. Yet again, with urbanisation trends and climate change exacerbating UHI effects globally, understanding the impact of UHI on mortality and identifying strategies to alleviate its consequences is crucial for public health planning and urban development in rapidly growing cities like Ho Chi Minh City.
 
 ## Reflections
+
+Just like I've noted in my reflections for *Week 4 - Policy*, UHI is now definitely the most interesting topic studied in this module.
+
+I found it so thought-provoking when we were discussing global policy documents that pertain to UHI and specifically the Beat the Heat Handbook, how this document itself is 208 pages and perhaps not something that city planners would engage with in practice (while in theory it seems like such a great idea) - I feel like this is one of the things that would be so easy to miss if you haven't spent considerable time working in this field or researching this topic. Once again, it makes me wonder where else there might a practical disconnect such as this when it comes to applying global policy on a more local scale?
+
+Another thing I found inspiring was the local solutions to the UHI problem like Barcelona's superblocks or Promenade Plantée in Paris, which made me look into green infrastructure initiatives back in my hometown. While there may not be superblocks in the traditional sense as seen in cities like Barcelona or green corridors similar to those in other European cities, Vilnius has been working on pedestrian-friendly zones, enhancing public parks, and promoting green spaces within the city. Our mayor is a huge advocate for these initiatives but I know that a lot of people protest against these measures, especially expanding cycling lanes, since many people rely heavily on getting around by using their vehicles. Many of those in support of these initiatives come from a younger generation so there is some hope that the collective mindset will change over the years.

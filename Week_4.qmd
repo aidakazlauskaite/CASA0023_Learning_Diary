@@ -21,24 +21,23 @@ Through the promotion of inclusivity, safety, and resilience in cities and human
 
 In Manila, the responsibility for tackling urban heat island (UHI) issues would likely fall under the jurisdiction of multiple government agencies, including the Department of Environment and Natural Resources (DENR), the Metropolitan Manila Development Authority (MMDA), The Department of Human Settlements and Urban Development (DHSUD), and the local government units (LGUs) of the smaller areal units within Metro Manila (MM). To my knowledge, these agencies often collaborate to implement policies and initiatives aimed at mitigating UHI effects and improving urban climate resilience.
 
-In a relatively recent report to the World Bank, MMDA and DHSUD have outlined their action plan detailing UHI mitigation measures proposed [@AddressingUrbanHeat2019]. Suggested solutions rely heavily on previous successful case studies from cities like Guangzhou (i.e., as a Sponge City —
-Haizhu wetlands), Paris (i.e., as a Sponge and Waterproof City), and, most importantly, Singapore (i.e, Green Plan 2030, Digital Urban Climate Twin). Science-based UHI strategies through scenario building and comprehensive mapping are identified as a key takeaway, suggested transfer to the MM context includes the following:
+In a relatively recent report to the World Bank, MMDA and DHSUD have outlined their action plan detailing UHI mitigation measures proposed [@AddressingUrbanHeat2019]. Suggested solutions rely heavily on previous successful case studies from cities like Guangzhou (i.e., as a Sponge City — Haizhu wetlands), Paris (i.e., as a Sponge and Waterproof City), and, most importantly, Singapore (i.e, Green Plan 2030, Digital Urban Climate Twin). Science-based UHI strategies through scenario building and comprehensive mapping are identified as a key takeaway, suggested transfer to the MM context includes the following:
 
-- Capacity-building
-  - Acquisition/development of programs and platforms
-  - Installation and rehabilitation of sensors
-  - Workshops on UHI
-- Identification of Baseline, KPIs and Targets
-  - Stakeholder consultation
-    - Surveys
-    - Multi-agency meetings
-- Geospatial analysis
-  - Mapping of vulnerability of MM cities to UHI
-  - Mapping of existing Urban Green Spaces
-- Monitoring and Evaluation
-  - Assessment through KPIs
-  - Establishment of feedback mechanism
-- Valuation of natural resources
+-   Capacity-building
+    -   Acquisition/development of programs and platforms
+    -   Installation and rehabilitation of sensors
+    -   Workshops on UHI
+-   Identification of Baseline, KPIs and Targets
+    -   Stakeholder consultation
+        -   Surveys
+        -   Multi-agency meetings
+-   Geospatial analysis
+    -   Mapping of vulnerability of MM cities to UHI
+    -   Mapping of existing Urban Green Spaces
+-   Monitoring and Evaluation
+    -   Assessment through KPIs
+    -   Establishment of feedback mechanism
+-   Valuation of natural resources
 
 ## Applications
 
@@ -51,3 +50,5 @@ For mapping the vulnerability of MM cities to UHI and identifying existing urban
 ![Source: [@AddressingUrbanHeat2019].](limitations.png)
 
 ## Reflections
+
+Learning about the UHI effect must have been my favourite lecture in the module thus far. While it is easy to imagine the dreadful consequences of UHI in either one of the global cities or in the biggest cities of many developing nations usually associated with rapid and uncontrollable urbanisation like Metro Manila, I never gave much thought that Lithuania - specifically Vilnius - might face similar problems. It turns out that the average annual air temperature in central Vilnius typically ranges from 0.59 to 0.88 °C higher than in its suburban areas and the most significant heat island effect, ranging from 0.91 to 1.44 °C, occurs during the warmer months between May and September [@bukantisPeculiaritiesUrbanHeat2022]. While the difference in temperature is not as severe as in MM (\~1°C to 3°C), given the massive difference in numbers of urban population between Vilnius and MM (590,000 vs 13,000,000, respectively) I was quite surprised to learn that it is still an issue. Not to mention, having grown up in Vilnius, I have always seen it as such a spread out city i.e., there are no comparable tightly compact business districts full of skyscrapers and has a plethora of green spaces. I think it would be really interesting to understand how much of a problem the current state of UHI poses in Vilnius and see whether it is being addressed by the officials.
